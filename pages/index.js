@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import '../styles/globals.css';
 
 export default function Home() {
   return (
