@@ -42,10 +42,10 @@ export default function Home() {
           </div>
         </section>
         <section className="py-12 bg-[#161616] border-t border-gray-800 mt-20">
-          <h3 className="text-center text-xl font-semibold text-yellow-400 mb-6">Tecnologías favoritas</h3>
+          <h3 className="text-center text-xl font-semibold text-blue-200 mb-6">Tecnologías favoritas</h3>
           <div className="flex flex-wrap justify-center gap-4 px-6">
             {["TypeScript", "Next.js", "Godot", "Tailwind CSS", "Python"].map((tech) => (
-              <span key={tech} className="bg-gray-800 border border-accent text-accent px-3 py-1 rounded-full">{tech}</span>
+              <span key={tech} className="bg-gray-800 border border-blue-200 text-accent px-3 py-1 rounded-full">{tech}</span>
             ))}
           </div>
         </section>
