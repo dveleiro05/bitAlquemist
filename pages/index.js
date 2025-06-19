@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Image from 'next/image';
+import logo from '../public/chibi_wizard.png';
 
 export default function Home() {
   return (
@@ -18,7 +20,7 @@ export default function Home() {
           </nav>
         </header>
         <section className="text-center py-20 px-6">
-          <img src="/chibi_wizard.png" alt="BitAlquemist Logo" className="mx-auto mb-6 w-32 h-32 rounded-full shadow-lg border border-accent" />
+          <img src="{logo}" alt="BitAlquemist Logo" className="mx-auto mb-6 w-32 h-32 rounded-full shadow-lg border border-accent" />
           <h2 className="text-4xl font-extrabold mb-2">BitAlquemist</h2>
           <p className="text-xl text-accent italic">Transmutando ideas en líneas de código y hechizos digitales</p>
         </section>
